@@ -2,7 +2,14 @@
 
 ## Getting Started
 
-This application provides example for integration zbyte-sso and zbyte-wallet-ui-sdk with react projects. Users can enjoy an easy, secure and seamless experience of authentication and wallet. To ensure smooth onboaring of this, please take note of the following keypoints.
+This application provides example for integration zbyte-sso and zbyte-wallet-ui-sdk with react projects. Users can enjoy an easy, secure and seamless experience of authentication and wallet.
+
+![Login screen](screenshots/login.png)
+![Dashboard after login](screenshots/dashboard.png)
+![Wallet opened](screenshots/wallet-opened.png)
+![Session in localstorage](screenshots/session-info.png)
+
+ To ensure smooth onboaring of this, please take note of the following keypoints.
 
 ## Important Limitations
 
