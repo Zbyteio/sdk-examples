@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Relay client demo</title>
+        <script type="text/javascript" src="dist/bundle.js"></script>
+    </head>
+    <body>
+        <div>
+            <p><b>wallet-public-key</b></p>
+            <input type="text" id="wallet-public-key">
+            <p><b>wallet-private-key</b></p>
+            <input type="text" id="wallet-private-key">
+
+            <p><b>Invoke Contract</b></p>
+            <p>contract-hash</p>
+            <input type="text" id="invoke-contract-hash">
+
+            <p>chain-id</p>
+            <input type="text" id="invoke-chain-id">
+
+            <button id="invoke-button">INVOKE CONTRACT</button>
+
+            <p id="invoke-status"></p>
+            <p id="invoke-count"></p>
+            <p id="invoke-result"></p>
+        </div>
+        <div>
+            <p><b>Deploy Contract</b></p>
+            <p>chain-id</p>
+            <input type="text" id="deploy-chain-id">
+            <button id="deploy-button">DEPLOY CONTRACT</button>
+
+            <p id="deploy-status"></p>
+            <p id="deploy-count"></p>
+            <p id="deploy-result"></p>
+        </div>
+        <div>
+            <p><b>Transfer Dplat Token</b></p>
+            <p>transfer-to</p>
+            <input type="text" id="transfer-to">
+            <p>transfer-amount</p>
+            <input type="text" id="transfer-amount">
+            <button id="transfer-button">TRANSFER ZBYTE</button>
+            <p id="transfer-result"></p>
+        </div>
+        <div>
+            <p><b>approve Dplat Token</b></p>
+            <p>spender-address</p>
+            <input type="text" id="spender-address">
+            <p>approve-amount</p>
+            <input type="text" id="approve-amount">
+            <button id="approve-button">APPROVE ZBYTE</button>
+            <p id="approve-result"></p>
+        </div>
+    </body>
+</html>
